@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:wght@300;400;700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=block");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  /* background-position: center; */
+  /* background-size: 100% 100%; */
+  background-color: #3c6255;
+  font-family: "Montserrat",
+    "Helvetica Neue", sans-serif;
+}
+.section {
+  margin: 0 auto;
+  width: 1440px;
+  padding: 40px 80px;
+}
+.theme {
+  display: flex;
+  align-items: center;
+  /* gap: 100px; */
+}
+.theme-title {
+  font-size: 40px;
+  font-weight: 500;
+  color: #eae7b1;
+  /* text-align: center; */
+  /* margin-top: 20px; */
+  /* margin-bottom: 120px; */
+}
+.theme-switcher {
+  display: flex;
+  margin-left: auto;
+  gap: 28px;
+}
+
+.theme-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* gap: 20px; */
+  font-size: 24px;
+  font-weight: 500px;
+  color: #2b473d;
+  width: 180px;
+  height: 60px;
+  border-radius: 20px;
+  background-color: #a6bb8d;
+  box-shadow: 3px 3px 9px 3px
+    rgba(0, 0, 0, 0.48);
+  font-family: "Montserrat",
+    "Helvetica Neue", sans-serif;
+}
+.title {
+  font-size: 40px;
+  font-weight: 500;
+  color: #eae7b1;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+.calc {
+  height: 660px;
+  margin: 0 auto;
+  width: 400px;
+  /* height: 400px; */
+  padding: 40px;
+  background-color: #a6bb8d;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  box-shadow: 3px 3px 9px 3px
+    rgba(0, 0, 0, 0.48);
+}
+.screen {
+  background-color: #eae7b1;
+  /* width: 360px; */
+  height: 80px;
+  margin-bottom: 40px;
+  /* border: 2px solid #000; */
+  border-radius: 24px;
+  box-shadow: 3px 3px 9px 3px
+    rgba(0, 0, 0, 0.48) inset;
+}
+
+.buttons {
+  margin: 0 auto;
+  display: grid;
+  gap: 40px;
+  grid-template-columns: repeat(
+    4,
+    40px
+  );
+  /* display: flex; */
+  /* flex-direction: row; */
+  /* flex-wrap: wrap; */
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #eae7b1;
+  text-align: center;
+  /* margin-top: 20px; */
+}
+.button {
+  width: 60px;
+  height: 60px;
+  box-shadow: 3px 3px 9px 3px
+    rgba(0, 0, 0, 0.48);
+  border-radius: 16px;
+  background-color: #61876e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.operator {
+}
+.math {
+}
